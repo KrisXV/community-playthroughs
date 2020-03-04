@@ -1,0 +1,53 @@
+p.desc {
+    font-weight: bold;
+}
+.align-center {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+.float-right {
+    float: right;
+    margin-left: 10px;
+}
+.clear {
+    clear: both;
+}
+.inactive-link {
+    color: #aaa;
+}
+a:link:hover, a:visited:hover {
+    background: transparent;
+    text-decoration: none;
+}
+ul>li {list-style-type: none;}
+table {
+    text-align: center;
+    margin-bottom: 10px;
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+table>tr>td, table>tr>th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+table>tr>th {
+    padding: 12px 0;
+    text-align: center;
+    background-color: #e5442e;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+}
+table>tr>td {
+    width: 20%;
+    text-align: center;
+    vertical-align: center;
+}
+table>tr>td>img {
+    padding-top: 15px;
+}
