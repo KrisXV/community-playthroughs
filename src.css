@@ -61,3 +61,11 @@ table>tr>td>img {
 html {
     font-family: Verdana, Tahoma, sans-serif;
 }
+hr {
+    border:0;
+    margin: 5% 0;
+}
+hr.bordered {
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
