@@ -51,3 +51,6 @@ table>tr>td {
 table>tr>td>img {
     padding-top: 15px;
 }
+html {
+    font-family: Verdana, Tahoma, sans-serif;
+}
