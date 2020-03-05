@@ -19,7 +19,14 @@ p.desc {
 .inactive-link {
     color: #aaa;
 }
+a:link, a:visited {
+    color: #99ccff;
+    background: none;
+    text-decoration: none;
+}
 a:link:hover, a:visited:hover {
+    color: #99ccff;
+    opacity: 0.7;
     background: transparent;
     text-decoration: none;
 }
